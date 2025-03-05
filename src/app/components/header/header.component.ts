@@ -13,6 +13,5 @@ export class HeaderComponent {
 
   showButtonClicked() {
     console.log('clicked');
-    
   }
 }
