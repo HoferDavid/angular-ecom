@@ -16,7 +16,7 @@ export class ProductsListComponent {
       title: 'string',
       image: 'string',
       price: 109.95,
-      stock: 10,
+      stock: 0,
     },
     {
       id: 2,

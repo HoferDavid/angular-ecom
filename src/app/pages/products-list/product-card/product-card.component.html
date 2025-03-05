@@ -7,4 +7,12 @@
         <span class="text-sm">{{ '$' + product().price }}</span>
         <app-primary-button label="add to cart" class="mt-3"></app-primary-button>
     </div>
+
+    <span class="absolute top-2 right-3 text-sm font-bold" [class]="product().stock ? 'text-green-500' : 'text-red-500'">
+        @if (product().stock) {
+            {{ product().stock }} left
+        } @else {
+            out of stock
+        }
+    </span>
 </div>
